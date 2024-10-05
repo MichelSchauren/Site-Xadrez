@@ -11,7 +11,7 @@ body {
     margin: 0px;
 }
 header {
-    background-image: linear-gradient(to top, white, var(--cor2));
+    background-image: linear-gradient(to top, white, var(--cor3), var(--cor2));
     padding: 5em;
     padding-top: 2em;
     padding-bottom: 2em; 
@@ -21,11 +21,13 @@ header > div {
     border: 0.1em, solid, black;
     border-radius: 2em;
     text-align: center;
+    box-shadow: 4px 4px 10px black;
 }
 nav {
     background-color: var(--cor3);
     padding: 0.5em;
     border: 0.1em, solid, black;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.877);
 }
 a {
     color: black;
@@ -36,9 +38,11 @@ a:hover {
 }
 article {
     background-color: white;
-    margin: 2em;
-    margin-top: 0em;
+    max-width: 1011px;
+    min-width: 320px;
+    margin: auto;
     border: 0.1em, solid, black;
+    box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.877);
 }
 article > div {
     margin: 1em;
