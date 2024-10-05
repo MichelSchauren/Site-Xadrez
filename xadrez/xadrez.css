@@ -1,17 +1,17 @@
 @charset "UTF-8";
 :root {
     --cor1: #443101;
-    --cor2: #fafd57;
-    --cor3: #f3f035;
+    --cor2: #0a1409;
+    --cor3: #54ca5a;
 }
 
 body {
-    background-color: rgb(133, 132, 91);
-    color: rgb(68, 49, 1);   
+    background-color: var(--cor2);
+    color: black;   
     margin: 0px;
 }
 header {
-    background-color: var(--cor2);
+    background-image: linear-gradient(to top, white, var(--cor2));
     padding: 5em;
     padding-top: 2em;
     padding-bottom: 2em; 
@@ -19,6 +19,7 @@ header {
 header > div {
     background-color: white;
     border: 0.1em, solid, black;
+    border-radius: 2em;
     text-align: center;
 }
 nav {
@@ -43,11 +44,8 @@ article > div {
     margin: 1em;
 }
 footer {
-    background-color: var(--cor2);
+    background-color: var(--cor3);
     border: 0.1em, solid, black;
     border-radius: 0.5em;
     text-align: center;
-}
-img {
-    width: 75%;
 }
